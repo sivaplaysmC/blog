@@ -1,0 +1,17 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: sivaplaysmC/blog
+theme: hugo-theme-yue
+
+params:
+  footer:
+    copyright:
+      author: 'SivaplaysmC "Sivaramakrishnan R"'
+      yearStart: 2024
+      yearEnd: ""
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
