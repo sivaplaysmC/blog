@@ -1,7 +1,7 @@
 +++
 title = 'Hello, world!'
 date = 2024-10-12T21:15:42+05:30
-draft = true
+draft = false
 tags = ["first", "second"]
 +++
 
