@@ -2,6 +2,7 @@
 title = 'Javascript Is Not The Answer'
 date = 2024-10-16T22:30:06+05:30
 draft = false
+tags = ["javascript", "rant"]
 +++
 
 
