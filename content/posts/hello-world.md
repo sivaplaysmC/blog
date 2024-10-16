@@ -7,7 +7,7 @@ tags = ["first", "second"]
 
 # Finally doing this
 
-## Hello, world!
+## Hello, world
 
 A blog is something that I always wanted to have.
 The very idea of having a place in the internet for my thoughts to live is so fascinating.
