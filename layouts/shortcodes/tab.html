@@ -1,0 +1,7 @@
+<div class="tab" data-tab="{{ .Get "name" }}">
+    <input type="radio" id="{{ .Get "name" }}" name="tabs" class="tab-radio" checked>
+    <label for="{{ .Get "name" }}" class="tab-label">{{ .Get "name" }}</label>
+    <div class="tab-content">
+        {{ .Inner | safeHTML }}
+    </div>
+</div>

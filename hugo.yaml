@@ -12,6 +12,8 @@ params:
 
 markup:
   goldmark:
+    extensions:
+      smartypants: false
     parser:
       attribute:
         block: true

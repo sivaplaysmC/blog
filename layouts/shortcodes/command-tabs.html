@@ -1,0 +1,10 @@
+{{- if .Inner}} {{end}}
+
+<div class="code-tabs">
+    <div class="tab-list">
+        <span data-os="windows" class="active">Windows</span>
+        <span data-os="macos">macOS</span>
+    </div>
+    <div class="tab-content windows">{{ .Scratch.Get "windows" }}</div>
+    <div class="hidden tab-content macos">{{.Scratch.Get "macos" }}</div>
+</div>

@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
+
+
+{{ $time := now }}
+{{ $styles := resources.Get "css/styles.scss"
+    | toCSS
+    | postCSS (dict "config" "./assets/css/postcss.config.js")
+    | resources.ExecuteAsTemplate (printf "styles.%s.css" $time) $time
+}}
+
+{{ if hugo.IsServer }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ else }}
+    {{ $styles := $styles | minify | fingerprint | resources.PostCSS }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{ end }}
