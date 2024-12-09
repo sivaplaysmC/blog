@@ -1,0 +1,13 @@
+{{- $lines := strings.Split .Inner "\n" }}
+{{- $cmd := index $lines 0}}
+{{- $cmd := strings.Trim  $cmd "\n \t $"}}
+{{- $outlines := $lines | after 1 }}
+{{- $out := delimit $outlines "\n" }}
+<article class="command-box">
+    <span> 
+        <pre >{{ $cmd }}</pre>
+        <button> Copy </button>
+    </span>
+    {{/* magic code - don't touch */}}
+    <pre>{{ $out }}</pre>
+</article>

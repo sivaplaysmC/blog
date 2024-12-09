@@ -17,3 +17,6 @@ markup:
     parser:
       attribute:
         block: true
+
+taxonomies:
+  ctf: ctf-writeups

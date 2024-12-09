@@ -1,0 +1,10 @@
+{{ $result := transform.HighlightCodeBlock . }}
+<article class="command-box">
+    <span> 
+        <pre class="code">{{ .Type }}</pre>
+        <button> Copy </button>
+    </span>
+    {{/* magic code - don't touch */}}
+    <pre>{{ $result.Inner }}</pre>
+</article>
+
