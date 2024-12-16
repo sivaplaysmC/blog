@@ -1,7 +1,7 @@
 ---
 title : 'Chip8 Interpretter 1'
 date : 2024-12-17T00:35:46+05:30
-draft : true
+draft : false
 ---
 
 Out of the blue, after my SIH victory, i decided to give web development and cybersecurity a little break and decided to write a chip8 emulator.
