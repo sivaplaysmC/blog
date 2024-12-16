@@ -4,52 +4,8 @@
 
 header {
     h1 {
-        font-family: IBM Plex Mono;
+        font-family: "Space Mono";
     }
 }
-.code-tabs {
-    max-width: 100%;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: #282828; /* Gruvbox dark background */
-}
 
-.tab-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 10px; /* Spacing below the tab list */
-}
-
-.tab-list span {
-    padding: 10px 15px;
-    background-color: #3c3836; /* Gruvbox medium background for inactive tabs */
-    color: #ebdbb2; /* Gruvbox light foreground */
-    border-radius: 3px; /* Rounded corners for tabs */
-    margin-right: 5px; /* Spacing between tabs */
-    cursor: pointer; /* Cursor style */
-    transition:
-        background-color 0.3s ease,
-        color 0.3s ease; /* Smooth transition */
-}
-
-.tab-list span:hover {
-    background-color: #504945; /* Gruvbox medium dark background on hover */
-}
-
-.tab-list span.active {
-    background-color: #458588; /* Gruvbox blue background for active tab */
-    color: #fbf1c7; /* Gruvbox light foreground for active tab */
-}
-
-.hidden {
-    display: none !important; /* Ensure hidden class is enforced */
-}
-
-.tab-content {
-    padding: 15px;
-    background-color: #1d2021; /* Gruvbox darker background for content */
-    color: #ebdbb2; /* Gruvbox light foreground */
-    border-radius: 3px; /* Rounded corners for content */
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap')

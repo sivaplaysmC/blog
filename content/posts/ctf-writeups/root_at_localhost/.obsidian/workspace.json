@@ -11,13 +11,32 @@
             "id": "15d29338063123f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SIH 2024 - HACK'N'SEEK.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SIH 2024 - HACK'N'SEEK"
+            }
+          },
+          {
+            "id": "32f869c302645b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIH 2024 HACK'N'SEEK.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SIH 2024 HACK'N'SEEK"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,8 +173,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15d29338063123f7",
+  "active": "32f869c302645b3e",
   "lastOpenFiles": [
+    "SIH 2024 - HACK'N'SEEK.md",
+    "SIH 2024 HACK'N'SEEK.md",
+    "play with qr.md",
     "the great login heist.md~",
     "the great login heist.md",
     "the_great_login_heist.md",
